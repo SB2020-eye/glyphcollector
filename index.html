@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Type design tool">
+        <meta name="author" content="Gabor Kerekes">
+        <link rel="shortcut icon" href="icon.ico">
+
+        <title>GlyphCollector - Type Revival Tool</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light">GlyphCollector</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#illust1">Illustrations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#usage">Usage</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#planned-features">Planned features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#acknowledge">Acknowledgements</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+
+    </header>
+
+
+
+    <section id="about" class="content-section">
+        <div class="container">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h2>About GlyphCollector</h2>
+                <p> GlyphCollector is a small application for Mac OS X developed <br>by <a href="http://krks.info" target="_blank">Gábor Kerekes</a> to be used in typeface revival projects, both as a production
+                    and research tool.
+                </p>
+                <p>
+                    GlyphCollector was  developed on the basis of an observation that the outcome of a type-digitization project is to a
+                    large extent determined by which representation of a glyph one chooses as a starting point.
+                    Because of the irregularities in the shapes of letter-forms on letterpress-printed pages,
+                    one can never get an accurate view of what the original shapes might have looked like.
+                    Furthermore, the properties of the tools used in the process of digitization, such as the the resolution of the scanner,
+                    introduce additional factors that will have a great influence on one’s interpretation of a typeface.
+                </p>
+                <p> To better inform the interpretive process of digitizing a typeface, GlyphCollector collects all instances of a
+                    character from a scanned page and distills an average image from them.  This average can then be imported into any
+                    application with auto-tracing capabilities such as Illustrator, and can form a new starting point for the design process. The collected representations are also saved as separate images, which provide valuable information to be used in making critical decisions during the digitization process.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="illust1" class="illust container content-section">
+        <div class="container">
+            <div class="col-lg-10 col-lg-offset-1" >
+                <img src="images/ill.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section id="illust2" class="illust container content-section">
+        <div class="container">
+            <div class="col-lg-10 col-lg-offset-1" >
+                <img src="images/hamburgefons.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section">
+        <div class="container">
+            <div class="col-lg-5 col-lg-offset-3">
+                <h2>Download GlyphCollector</h2>
+                <p>GlyphCollector is available as a standalone application for Mac OSX 10.9 and higher.</p>
+                <p>It is currently in beta. <a class="page-scroll" href="#contact">Please let me know if you come across any bugs.</a></p>
+                <a href="http://sourceforge.net/projects/glyphcollector/index.html" target="_blank" class="btn btn-default btn-lg">DOWNLOAD PAGE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage Section -->
+    <section id="usage" class="content-section">
+        <div class="container">
+            <div class="col-lg-5 col-lg-offset-3">
+                <h2>Usage</h2>
+                <p><em>1.</em><br>Scan 4-5 spreads from a book at a high resolution. 2400 dpi and above will work well. Save these in a folder as JPEGs.</p>
+                <p><em>2.</em><br>Create a separate folder for character references. Select one glyph of each character and save these in the folder, naming the files with the character. GlyphCollector needs these to know what each character looks like.</p>
+                <p><em>3.</em><br>Create a new folder into which the program can save its output.</p>
+                <p><em>4.</em><br>Tell the application where your folders are and hit the ‘Run’ button. If the ‘test run’ checkbox is ticked, it will only process the first glyph with the first scan.  All found characters will be saved in their own sub-folders.</p>
+                <p><em>5.</em><br>Once the glyphs have been collected, you can calculate their averages. Before this step it is recommended to have a look at the collections and exclude the ones which you don't want to use in the generation of the averages. The averages will be saved in the root of the output directory.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage Section -->
+    <section id="planned-features" class="content-section">
+        <div class="container">
+            <div class="col-lg-5 col-lg-offset-3">
+                <h2>Planned features for the next version</h2>
+                <ul>
+                    <li>Autotracing from within the app</li>
+                    <li>Export fonts in UFO format so that they can be edited in any font editor</li>
+                    <li>Full automation of the collection process using OCR</li>
+                    <li>Interface to browse and filter collection results</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+        <div class="container">
+            <div class="col-lg-4 col-lg-offset-3">
+                <h2>Contact</h2>
+                <p>Feel free to <a href="mailto:krks.gbr@gmail.com?Subject=Hello" target="_top">drop me an e-mail</a> with any questions/suggestions or bugs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acknowledgements Section -->
+    <section id="acknowledge" class="content-section">
+        <div class="container">
+            <div class="col-lg-5 col-lg-offset-3">
+                <h2>Acknowledgements</h2>
+                <p>I would like to thank my LetterStudio tutors <a href="http://www.lettermodel.org/wordpress/?page_id=1751" target="_blank">Frank E. Blokland</a> and <a href="http://letterror.com">Just van Rossum</a> for the constructive feedback and programming support they have given me during the project. Likewise, thanks to my friend, <a href="http://zahola.github.io/WebGL/" target="_blank">Tamás Zahola</a>  for answering my endless stream of questions on further coding issues.</p>
+                <p>GlyphCollector would not have come to exist without the open source computer vision library <a href="http://opencv.org/" target="_blank">OpenCV</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="col-lg-6 col-lg-offset-3">© <a href="http://krks.info" target="_blank">Gábor Kerekes</a> 2015</div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/script.js"></script>
+
+    </body>
+
+</html>
